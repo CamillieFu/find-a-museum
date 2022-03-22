@@ -1,0 +1,32 @@
+/* TODO: Put your CSS code in here */
+body {
+  background-color: rgba(214, 234, 245, 0.6);
+  // z-index: -3;
+}
+
+span {
+  font-family: inherit;
+  text-align: center;
+  font-weight: lighter;
+  color: rgb(45, 104, 233);
+}
+
+form {
+  padding: 30px;
+  align-content: center;
+}
+
+
+@media (max-width: 575px) {
+  /* For a screen < 540px, this CSS will be read */
+  .btn {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* For a screen < 540px, this CSS will be read */
+  .btn {
+    margin-top: 20px;
+  }
+}
