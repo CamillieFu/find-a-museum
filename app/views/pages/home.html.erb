@@ -3,7 +3,7 @@
     <div class="col-sm-12 col-md-8 col-lg-8">
       <form class='form-inline justify-content-center mx-auto'>
         <input type="text" class="form-control flex-grow-1 mr-2" placeholder="Type the coordinates here, separated by a comma." id="text">
-        <input type="submit" value="Geocode!" class="btn btn-primary" id="submit">
+        <input type="submit" value="Geocode!" class="btn btn-primary submit" id="submit">
       </form>
       <p class='text-monospace lead text-center font-weight-bold'>
 
@@ -11,8 +11,10 @@
       </p>
       <div style="height: 300px">
         <!-- Display the map in this div -->
-        <div id="map" style="height: 300px; width: 100%"></div>
+      <div id="map"
+        style="width: 100%; height: 600px;"
+        data-markers="<%= @markers.to_json %>"
+        data-mapbox-api-key="<%= ENV['MAPBOX_API_KEY'] %>"></div>      </div>
       </div>
-    </div>
   </div>
 </div>
