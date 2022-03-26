@@ -12,7 +12,7 @@ import "channels";
 import 'bootstrap';
 import 'dotenv/config';
 import { findMuseum } from "./museums";
-import { initMapbox } from '../plugins/init_mapbox';
+// import { initMapbox } from '../plugins/init_mapbox';
 
 Rails.start()
 Turbolinks.start()
@@ -20,5 +20,5 @@ ActiveStorage.start()
 
 document.addEventListener("turbolinks:load", () => {
   findMuseum();
-  initMapbox();
+  // initMapbox();
 })

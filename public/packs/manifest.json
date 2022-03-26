@@ -1,13 +1,21 @@
 {
-  "application.js": "/packs/js/application-8a62c7ab55b2b0e316d8.js",
-  "application.js.map": "/packs/js/application-8a62c7ab55b2b0e316d8.js.map",
+  "application.js": "/packs/js/application-333562955ffc313a5470.js",
+  "application.js.map": "/packs/js/application-333562955ffc313a5470.js.map",
   "entrypoints": {
     "application": {
       "js": [
-        "/packs/js/application-8a62c7ab55b2b0e316d8.js"
+        "/packs/js/application-333562955ffc313a5470.js"
       ],
       "js.map": [
-        "/packs/js/application-8a62c7ab55b2b0e316d8.js.map"
+        "/packs/js/application-333562955ffc313a5470.js.map"
+      ]
+    },
+    "init_mapbox": {
+      "js": [
+        "/packs/js/init_mapbox-f3c4341b4c03eec92b4a.js"
+      ],
+      "js.map": [
+        "/packs/js/init_mapbox-f3c4341b4c03eec92b4a.js.map"
       ]
     },
     "map": {
@@ -20,15 +28,17 @@
     },
     "museums": {
       "js": [
-        "/packs/js/museums-a0276b715ee8d80ab74d.js"
+        "/packs/js/museums-5ac7e69e283bfc30fd9b.js"
       ],
       "js.map": [
-        "/packs/js/museums-a0276b715ee8d80ab74d.js.map"
+        "/packs/js/museums-5ac7e69e283bfc30fd9b.js.map"
       ]
     }
   },
+  "init_mapbox.js": "/packs/js/init_mapbox-f3c4341b4c03eec92b4a.js",
+  "init_mapbox.js.map": "/packs/js/init_mapbox-f3c4341b4c03eec92b4a.js.map",
   "map.js": "/packs/js/map-9675903e9644e6cf8811.js",
   "map.js.map": "/packs/js/map-9675903e9644e6cf8811.js.map",
-  "museums.js": "/packs/js/museums-a0276b715ee8d80ab74d.js",
-  "museums.js.map": "/packs/js/museums-a0276b715ee8d80ab74d.js.map"
+  "museums.js": "/packs/js/museums-5ac7e69e283bfc30fd9b.js",
+  "museums.js.map": "/packs/js/museums-5ac7e69e283bfc30fd9b.js.map"
 }
