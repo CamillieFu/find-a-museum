@@ -17,9 +17,17 @@ const findMuseum = () => {
       .then((data) => {
         console.log(data);
         data.features.forEach((feature) => {
-          const postalCode = feature.context[0].id
+          const code = feature.context[0].id
+          const postalCode = code.substr(9, code.length)
           const museum = feature.place_name
-          museumObject[postalCode.substr(9, postalCode.length)] = museum
+          console.log(museum)
+          console.log(postalCode)
+          if (postalCode in museumObject) {
+            museumObject[postalCode].push(museum)
+          }
+          else {
+          museumObject[postalCode] = [museum]
+          }
         });
       });
   });

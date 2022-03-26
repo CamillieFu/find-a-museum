@@ -3564,3 +3564,42 @@ Entrypoint museums = js/museums-5ac7e69e283bfc30fd9b.js js/museums-5ac7e69e283bf
 Completed 200 OK in 2594ms (Views: 2592.6ms | Allocations: 5305)
 
 
+Started GET "/" for ::1 at 2022-03-27 05:45:59 +0900
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 2.8ms | Allocations: 285)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/cfujisaki/code/CamillieFu/find-a-museum/public/packs
+[Webpacker] Hash: 4d7b3f23dd5a92ba027b
+Version: webpack 4.46.0
+Time: 1250ms
+Built at: 03/27/2022 5:46:02 AM
+                                     Asset      Size       Chunks                         Chunk Names
+    js/application-c45bec7d83e0c7fce2c6.js  2.35 MiB  application  [emitted] [immutable]  application
+js/application-c45bec7d83e0c7fce2c6.js.map  2.73 MiB  application  [emitted] [dev]        application
+    js/init_mapbox-f3c4341b4c03eec92b4a.js  1.69 MiB  init_mapbox  [emitted] [immutable]  init_mapbox
+js/init_mapbox-f3c4341b4c03eec92b4a.js.map  1.96 MiB  init_mapbox  [emitted] [dev]        init_mapbox
+            js/map-9675903e9644e6cf8811.js   1.6 MiB          map  [emitted] [immutable]  map
+        js/map-9675903e9644e6cf8811.js.map  1.87 MiB          map  [emitted] [dev]        map
+        js/museums-62b7c9db3836602649dd.js  1.71 MiB      museums  [emitted] [immutable]  museums
+    js/museums-62b7c9db3836602649dd.js.map  1.98 MiB      museums  [emitted] [dev]        museums
+                             manifest.json  1.27 KiB               [emitted]              
+Entrypoint application = js/application-c45bec7d83e0c7fce2c6.js js/application-c45bec7d83e0c7fce2c6.js.map
+Entrypoint init_mapbox = js/init_mapbox-f3c4341b4c03eec92b4a.js js/init_mapbox-f3c4341b4c03eec92b4a.js.map
+Entrypoint map = js/map-9675903e9644e6cf8811.js js/map-9675903e9644e6cf8811.js.map
+Entrypoint museums = js/museums-62b7c9db3836602649dd.js js/museums-62b7c9db3836602649dd.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 751 bytes {application} [built]
+[./app/javascript/packs/init_mapbox.js] 452 bytes {init_mapbox} [built]
+[./app/javascript/packs/map.js] 349 bytes {map} [built]
+[./app/javascript/packs/museums.js] 1.26 KiB {museums} {application} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 19 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 2748.0ms | Allocations: 7410)
+Completed 200 OK in 2765ms (Views: 2751.4ms | ActiveRecord: 0.0ms | Allocations: 9960)
+
+

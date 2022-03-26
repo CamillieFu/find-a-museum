@@ -1,13 +1,13 @@
 {
-  "application.js": "/packs/js/application-333562955ffc313a5470.js",
-  "application.js.map": "/packs/js/application-333562955ffc313a5470.js.map",
+  "application.js": "/packs/js/application-c45bec7d83e0c7fce2c6.js",
+  "application.js.map": "/packs/js/application-c45bec7d83e0c7fce2c6.js.map",
   "entrypoints": {
     "application": {
       "js": [
-        "/packs/js/application-333562955ffc313a5470.js"
+        "/packs/js/application-c45bec7d83e0c7fce2c6.js"
       ],
       "js.map": [
-        "/packs/js/application-333562955ffc313a5470.js.map"
+        "/packs/js/application-c45bec7d83e0c7fce2c6.js.map"
       ]
     },
     "init_mapbox": {
@@ -28,10 +28,10 @@
     },
     "museums": {
       "js": [
-        "/packs/js/museums-5ac7e69e283bfc30fd9b.js"
+        "/packs/js/museums-62b7c9db3836602649dd.js"
       ],
       "js.map": [
-        "/packs/js/museums-5ac7e69e283bfc30fd9b.js.map"
+        "/packs/js/museums-62b7c9db3836602649dd.js.map"
       ]
     }
   },
@@ -39,6 +39,6 @@
   "init_mapbox.js.map": "/packs/js/init_mapbox-f3c4341b4c03eec92b4a.js.map",
   "map.js": "/packs/js/map-9675903e9644e6cf8811.js",
   "map.js.map": "/packs/js/map-9675903e9644e6cf8811.js.map",
-  "museums.js": "/packs/js/museums-5ac7e69e283bfc30fd9b.js",
-  "museums.js.map": "/packs/js/museums-5ac7e69e283bfc30fd9b.js.map"
+  "museums.js": "/packs/js/museums-62b7c9db3836602649dd.js",
+  "museums.js.map": "/packs/js/museums-62b7c9db3836602649dd.js.map"
 }
