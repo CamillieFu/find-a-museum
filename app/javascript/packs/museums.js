@@ -30,6 +30,7 @@ const findMuseum = () => {
           }
         });
       });
+      JSON.stringify(museumObject);
   });
 }
 
