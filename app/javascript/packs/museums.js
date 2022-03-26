@@ -5,7 +5,6 @@ import 'mapbox-gl/dist/mapbox-gl.css';
 const findMuseum = () => {
   const mapElement = document.getElementById('map');
   mapboxgl.accessToken = mapElement.dataset.mapboxApiKey;
-  console.log(mapboxgl.accessToken);
   const submitButton = document.querySelector('#submit');
   submitButton.addEventListener('click', (event) => {
     event.preventDefault();
@@ -15,13 +14,10 @@ const findMuseum = () => {
     fetch(url)
       .then(response => response.json())
       .then((data) => {
-        console.log(data);
         data.features.forEach((feature) => {
           const code = feature.context[0].id
           const postalCode = code.substr(9, code.length)
           const museum = feature.place_name
-          console.log(museum)
-          console.log(postalCode)
           if (postalCode in museumObject) {
             museumObject[postalCode].push(museum)
           }
@@ -35,4 +31,3 @@ const findMuseum = () => {
 }
 
 export { findMuseum };
-console.log('poop')
